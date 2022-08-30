@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    return HttpResponse('Cards displayed here')
+    return render(request, "carddisplay/index.html")
