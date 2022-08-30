@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'carddisplay',
     'carddisplay.apps.CarddisplayConfig',
     'django.contrib.admin',
     'django.contrib.auth',
